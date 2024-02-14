@@ -1,0 +1,146 @@
+.navbar {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 1.7rem auto;
+  padding: 0 2rem;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.25);
+  z-index: 999999;
+  background-color: white;
+}
+
+.navbar-logo img {
+  margin: 10px 0 0 -20px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+  width: 250px;
+}
+
+.navbar-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #222;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  width: 100%;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #01959a;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.nav-link i {
+  padding-right: 10px;
+}
+
+.nav-link-mobile {
+  display: none;
+}
+
+.signupBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.signupBtn:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.menu-icons {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 984px) {
+  .navbar {
+    z-index: 999;
+    width: 90%;
+    margin: 1.7rem auto;
+  }
+
+  .menu-icons {
+    display: block;
+  }
+
+  .navbar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 13px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    padding: 100px 0 30px 0;
+    margin: 0;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }
+
+  .active {
+    z-index: -1;
+    opacity: 1;
+    left: 0;
+    transition: 0.4s ease-in-out;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+
+  .nav-link:hover {
+    background-color: #fff;
+    color: #222;
+  }
+
+  .nav-link i {
+    padding-right: 10px;
+  }
+
+  .nav-link-mobile {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    background-color: #01959a;
+    border-radius: 5px;
+    padding: 1rem 5rem;
+  }
+
+  .signupBtn {
+    display: none;
+  }
+}
