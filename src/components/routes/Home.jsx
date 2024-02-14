@@ -2,11 +2,12 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Hero from "../HeroSection/Hero";
 import HeroImg from "../../assets/hero-img.jpg";
+import Destination from "../Destination/Destination";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero
         heroCName="hero"
         heroTextCName="hero-text"
@@ -17,6 +18,7 @@ const Home = () => {
         btnClassName="show"
         url="/"
       />
+      <Destination />
     </div>
   );
 };
