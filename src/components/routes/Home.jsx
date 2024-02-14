@@ -17,7 +17,6 @@ const Home = () => {
         btnClassName="show"
         url="/"
       />
-      <h1>hello</h1>
     </div>
   );
 };
