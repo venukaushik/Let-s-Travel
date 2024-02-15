@@ -8,7 +8,7 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero
         heroCName="hero"
@@ -23,7 +23,7 @@ const Home = () => {
       <Destination />
       <RecentTripsData />
       <Footer />
-    </div>
+    </>
   );
 };
 

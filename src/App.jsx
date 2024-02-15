@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/routes/Home";
 import About from "./components/routes/About";
 import Service from "./components/routes/Service";
@@ -9,7 +9,7 @@ import Signup from "./components/routes/Signup";
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route exact element={<Home />} path="/" />
           <Route exact element={<About />} path="/about" />
@@ -17,7 +17,7 @@ function App() {
           <Route exact element={<Contact />} path="/contact" />
           <Route exact element={<Signup />} path="/signup" />
         </Routes>
-      </Router>
+      </BrowserRouter>
     </>
   );
 }
