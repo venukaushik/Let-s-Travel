@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MenuItems } from "./MenuItems";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import "./Navbar.css";
 
@@ -9,6 +9,12 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setMenuIcon(!menuIcon);
+  };
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/signup");
   };
 
   return (
@@ -33,7 +39,9 @@ const Navbar = () => {
               </li>
             );
           })}
-          <button className="signupBtn">Sign up</button>
+          <button className="signupBtn" onClick={handleClick}>
+            Sign up
+          </button>
         </ul>
       </div>
     </>
