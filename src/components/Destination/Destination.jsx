@@ -2,8 +2,8 @@ import React from "react";
 import "./Destination.css";
 import TaalImg1 from "../../assets/1.jpg";
 import TaalImg2 from "../../assets/2.jpg";
-import MountainImg1 from "../../assets/4.jpg";
-import MountainImg2 from "../../assets/5.jpg";
+import MountainImg1 from "../../assets/3.jpg";
+import MountainImg2 from "../../assets/4.jpg";
 import DestinationData from "./DestinationData";
 
 const Destination = () => {

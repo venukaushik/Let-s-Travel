@@ -1,0 +1,65 @@
+.recent-trips {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 30px;
+  margin: 4rem 6rem;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recent-trips h1 {
+  font-size: 3rem;
+}
+
+.trip-cards {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.card {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: start;
+  box-shadow: -1px 1px 32px -18px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-weight: 900;
+}
+
+@media screen and (max-width: 960px) {
+  .recent-trips {
+    margin: 4rem 3rem;
+  }
+  .trip-cards {
+    flex-wrap: wrap;
+  }
+  .card {
+    padding: 2rem;
+  }
+}
