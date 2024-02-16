@@ -5,7 +5,7 @@ import About from "./components/routes/About";
 import Service from "./components/routes/Service";
 import Contact from "./components/routes/Contact";
 import Signup from "./components/routes/Signup";
-
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
           <Route exact element={<Signup />} path="/signup" />
         </Routes>
       </BrowserRouter>
+      <ScrollToTop />
     </>
   );
 }

@@ -5,6 +5,7 @@ import HeroImg from "../../assets/hero-img.jpg";
 import Destination from "../Destination/Destination";
 import RecentTripsData from "../RecentTrips/RecentTrips";
 import Footer from "../Footer/Footer";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       />
       <Destination />
       <RecentTripsData />
+      {/* <ScrollToTop /> */}
       <Footer />
     </>
   );
