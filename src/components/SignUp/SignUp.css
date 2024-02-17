@@ -32,7 +32,7 @@
   font-size: 1.1rem;
 }
 
-form {
+.form-container form {
   padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -40,19 +40,19 @@ form {
   height: max-content;
 }
 
-form div {
+.form-container form div {
   width: 45%;
   position: relative;
 }
 
-form input {
+.form-container form input {
   width: 100%;
   padding: 1rem;
   border: none;
   border-bottom: 2px solid black;
 }
 
-form i {
+.form-container form i {
   position: absolute;
   top: 40%;
   right: 5%;

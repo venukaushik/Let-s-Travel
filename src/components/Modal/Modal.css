@@ -1,0 +1,88 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(189, 189, 189, 0.9);
+  z-index: 9999999;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-30%, -50%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+}
+
+.modal-container {
+  position: relative;
+  background-color: #fff;
+  gap: 30px;
+  display: flex;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: -1px 1px 32px -18px rgba(0, 0, 0, 0.5);
+}
+
+.modal-container i {
+  font-size: 2.5rem;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  cursor: pointer;
+}
+
+.left {
+  width: 50%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.left h1 {
+  font-size: 2.3rem;
+  color: rgb(36, 39, 66);
+}
+
+.left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list div {
+  display: flex;
+  gap: 10px;
+}
+
+.list img {
+  width: 20px;
+  height: 20px;
+}
+
+.left form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left form label {
+  font-weight: 600;
+  color: rgb(36, 39, 66);
+}
+
+.left input {
+  width: 100%;
+}
+
+.right img {
+  width: 380px;
+  border-radius: 20px;
+}

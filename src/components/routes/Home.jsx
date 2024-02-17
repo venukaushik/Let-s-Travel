@@ -6,6 +6,7 @@ import Destination from "../Destination/Destination";
 import RecentTripsData from "../RecentTrips/RecentTrips";
 import Footer from "../Footer/Footer";
 import Plans from "../Plans/Plans";
+import Modal from "../Modal/Modal";
 
 const Home = () => {
   const plansRef = useRef(null);
@@ -15,6 +16,7 @@ const Home = () => {
 
   return (
     <>
+      <Modal />
       <Hero
         heroCName="hero"
         heroTextCName="hero-text"

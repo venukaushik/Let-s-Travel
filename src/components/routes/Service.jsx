@@ -8,7 +8,6 @@ import Footer from "../Footer/Footer";
 const Service = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <Hero heroCName="about-hero" heroTextCName="hero-text" heroImg={ServiceHeroImg} heroTitle="Service" btnClassName="hide" url="/service" />
       <RecentTrips />
       <Footer />
