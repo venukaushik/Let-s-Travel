@@ -5,17 +5,17 @@
   gap: 80px;
 }
 
-.container {
+.about-container {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.container img {
+.about-container img {
   width: 450px;
 }
 
-.container p {
+.about-container p {
   margin-top: 10px;
   font-size: 1.1rem;
 }

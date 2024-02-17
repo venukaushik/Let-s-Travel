@@ -8,7 +8,7 @@ import ContactUs from "../ContactUs/ContactUs";
 const Contact = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero heroCName="about-hero" heroTextCName="hero-text" heroImg={ContactHeroImg} heroTitle="Contact Us" btnClassName="hide" url="/contact" />
       <ContactUs />
       <Footer />

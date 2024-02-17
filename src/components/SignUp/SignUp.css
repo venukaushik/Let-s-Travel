@@ -88,7 +88,7 @@ form button:hover {
 
 .divider {
   text-align: center;
-  width: 90%;
+  width: 100%;
   border-bottom: 1px solid black;
   line-height: 0.1rem;
   margin: 1rem auto;

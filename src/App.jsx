@@ -6,6 +6,7 @@ import Service from "./components/routes/Service";
 import Contact from "./components/routes/Contact";
 import Signup from "./components/routes/Signup";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+
 function App() {
   return (
     <>

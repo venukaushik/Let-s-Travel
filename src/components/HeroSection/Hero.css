@@ -51,6 +51,9 @@ img {
   text-decoration: none;
   padding: 0.7rem 2rem;
   border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 
 .hero-text .hide {

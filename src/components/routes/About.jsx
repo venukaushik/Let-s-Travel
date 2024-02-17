@@ -8,7 +8,7 @@ import Footer from "../Footer/Footer";
 const About = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero heroCName="about-hero" heroTextCName="hero-text" heroImg={AboutHeroImg} heroTitle="About" btnClassName="hide" url="/about" />
       <AboutUs />
       <Footer />

@@ -38,8 +38,8 @@ const SignUp = () => {
               <span>OR</span>
             </p>
             <div className="signupbtn">
-              <button>Signup with Google</button>
-              <button>Singup with Facebook</button>
+              <button className="btn">Signup with Google</button>
+              <button className="btn">Singup with Facebook</button>
             </div>
             <p className="signin">
               Already have an account? <a href="">Sign In</a>
