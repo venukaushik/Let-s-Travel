@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Hero from "../HeroSection/Hero";
 import SignUpHeroImg from "../../assets/9.jpg";
-import SignUp from "..//SignUp/SignUp";
+import SignUp from "../SignUp/SignUp";
 import Footer from "../Footer/Footer";
 
 const Signup = () => {
