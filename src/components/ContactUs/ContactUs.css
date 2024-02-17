@@ -104,15 +104,15 @@ textarea::placeholder {
     padding: 1.5rem;
   }
 
+  .form-container form div {
+    width: 100%;
+  }
+
   .form-container h1 {
     font-size: 3rem;
   }
 
   .form-container p {
     font-size: 0.9rem;
-  }
-
-  form div {
-    width: 100%;
   }
 }
