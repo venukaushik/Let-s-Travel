@@ -14,19 +14,19 @@ const SignUp = () => {
             </div>
             <form>
               <div>
-                <input type="text" placeholder="Username" />
+                <input type="text" placeholder="Username" required />
                 <i className="fa-solid fa-user"></i>
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" placeholder="Email" required />
                 <i className="fa-solid fa-envelope"></i>
               </div>
               <div>
-                <input type="password" placeholder="Create Password" />
+                <input type="password" placeholder="Create Password" required />
                 <i className="fa-solid fa-lock"></i>
               </div>
               <div>
-                <input type="password" placeholder="Confirm Password" />
+                <input type="password" placeholder="Confirm Password" required />
                 <i className="fa-solid fa-lock"></i>
               </div>
               <p>

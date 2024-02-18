@@ -14,18 +14,18 @@ const ContactUs = () => {
             </div>
             <form>
               <div>
-                <input type="text" placeholder="Enter your Name" />
+                <input type="text" placeholder="Enter your Name" required />
               </div>
               <div>
-                <input type="email" placeholder="Enter your Email" />
+                <input type="email" placeholder="Enter your Email" required />
               </div>
               <div>
-                <input type="number" placeholder="Enter your phone" />
+                <input type="number" placeholder="Enter your phone" required />
               </div>
               <div>
                 <input type="date" />
               </div>
-              <textarea name="" id="" cols="80" rows="5" placeholder="Enter your message"></textarea>
+              <textarea name="" id="" cols="80" rows="5" placeholder="Enter your message" required></textarea>
               <button>Submit</button>
             </form>
           </div>
