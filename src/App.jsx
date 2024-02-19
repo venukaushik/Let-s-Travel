@@ -4,7 +4,7 @@ import Home from "./components/routes/Home";
 import About from "./components/routes/About";
 import Service from "./components/routes/Service";
 import Contact from "./components/routes/Contact";
-import SignUp from "./components/routes/Signup";
+import SignUp from "./components/routes/SignUp";
 
 function App() {
   return (
