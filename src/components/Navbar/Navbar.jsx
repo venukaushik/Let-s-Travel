@@ -21,9 +21,7 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="navbar-logo">
-          <a href="#">
-            <img src={Logo} alt="" />
-          </a>
+          <img src={Logo} alt="" />
         </div>
         <div onClick={toggleMenu} className="menu-icons">
           <i className={menuIcon ? "fas fa-close" : "fas fa-bars"} />

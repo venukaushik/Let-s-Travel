@@ -23,7 +23,7 @@ const ContactUs = () => {
                 <input type="number" placeholder="Enter your phone" required />
               </div>
               <div>
-                <input type="date" />
+                <input type="date" required />
               </div>
               <textarea name="" id="" cols="80" rows="5" placeholder="Enter your message" required></textarea>
               <button>Submit</button>

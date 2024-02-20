@@ -84,11 +84,11 @@ textarea::placeholder {
 
 @media screen and (max-width: 1200px) {
   .contact-us {
-    padding: 4rem 2rem;
+    padding: 4rem 1.5rem;
   }
 
   .outer-container {
-    padding-left: 4rem;
+    padding-left: 2rem !important;
   }
 
   .inner-container {
@@ -101,11 +101,11 @@ textarea::placeholder {
   }
 
   .form-container {
-    padding: 1.5rem;
+    padding: 1rem !important;
   }
 
   .form-container form div {
-    width: 100%;
+    width: 100% !important;
   }
 
   .form-container h1 {

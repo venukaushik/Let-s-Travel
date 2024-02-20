@@ -104,7 +104,7 @@ ul li {
   }
 
   .first-row {
-    gap: 25px;
+    margin-right: 25px;
   }
 
   .social-icons {
@@ -114,12 +114,23 @@ ul li {
 
   .last-row {
     padding: 4rem 0;
-    gap: 50px;
+    gap: 40px;
     justify-content: center;
   }
 
   .footer-link {
-    /* padding-left: 1.5rem; */
     width: 35%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .first-row {
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .last-row {
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -72,7 +72,7 @@ textarea::placeholder {
 
 form button {
   margin: auto;
-  padding: 12px 80px;
+  padding: 12px 70px;
   background-color: #fff;
   border: 2px solid black;
   cursor: pointer;
@@ -120,7 +120,7 @@ form a:hover {
 
 @media screen and (max-width: 1200px) {
   .signup-us {
-    padding: 4rem 2rem;
+    padding: 4rem 0;
   }
 
   .outer-container {
@@ -150,5 +150,9 @@ form a:hover {
 
   form div {
     width: 100%;
+  }
+
+  .signupbtn {
+    flex-wrap: wrap;
   }
 }
