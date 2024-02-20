@@ -21,7 +21,7 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="navbar-logo">
-          <a href="/">
+          <a href="#">
             <img src={Logo} alt="" />
           </a>
         </div>

@@ -77,8 +77,11 @@
 @media screen and (max-width: 984px) {
   .navbar {
     z-index: 999;
-    width: 90%;
-    margin: 1.7rem auto;
+    width: 100%;
+    top: 0;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
   .menu-icons {
