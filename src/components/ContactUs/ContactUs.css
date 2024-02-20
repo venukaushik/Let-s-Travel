@@ -84,7 +84,7 @@ textarea::placeholder {
 
 @media screen and (max-width: 1200px) {
   .contact-us {
-    padding: 4rem 1.5rem;
+    padding: 4rem 0;
   }
 
   .outer-container {
@@ -101,7 +101,7 @@ textarea::placeholder {
   }
 
   .form-container {
-    padding: 1rem !important;
+    padding: 3rem 2rem !important;
   }
 
   .form-container form div {
