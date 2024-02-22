@@ -74,6 +74,10 @@
     margin: 4rem 2rem;
   }
 
+  .destination h1 {
+    font-size: 2rem;
+  }
+
   .popular-destination {
     flex-direction: column-reverse;
     gap: 50px;

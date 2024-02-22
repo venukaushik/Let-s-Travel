@@ -37,16 +37,16 @@
 
 @media screen and (max-width: 960px) {
   .about-us {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     gap: 40px;
   }
 
-  .container {
+  .about-container {
     flex-direction: column;
     gap: 30px;
   }
 
-  .container img {
+  .about-container img {
     border-radius: 20px;
     width: 100%;
   }

@@ -84,6 +84,14 @@
     border-bottom-right-radius: 10px;
   }
 
+  .navbar-logo img {
+    display: flex;
+    align-items: center;
+    margin: 0px 0 0 -20px;
+    cursor: pointer;
+    width: 170px;
+  }
+
   .menu-icons {
     display: block;
   }
